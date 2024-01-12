@@ -27,14 +27,14 @@ article_template = PromptTemplate(
 
 # OpenAI llm instance
 # Temperature (0 = precision, 1 = creativity)
-davinci_llm = OpenAI(model="text-davinci-003", temperature=0.9)  # type: ignore
+gpt35_turbo_instruct_llm = OpenAI(model="gpt-3.5-turbo-instruct", temperature=0.9)  # type: ignore
 gpt35_turbo_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.9)
 # example usage:
 # response: str = openai_llm(title_template.format(topic=topic, language="English"))
 
 # Chgin instance
 title_chain = LLMChain(
-    llm=davinci_llm, prompt=title_template, output_key="article_title", verbose=True
+    llm=gpt35_turbo_instruct_llm, prompt=title_template, output_key="article_title", verbose=True
 )
 article_chain = LLMChain(llm=gpt35_turbo_llm, prompt=article_template, verbose=True)
 
