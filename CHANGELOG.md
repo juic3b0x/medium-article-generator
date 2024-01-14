@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 
 ### ⛰️  Features
 
+- Added history via deta base - ([6b8beec](https://github.com/orhun/git-cliff/commit/6b8beec5f5d7def9c470e09dd0c4a025b2e0debb))
 - Agents - ([ecb7d82](https://github.com/orhun/git-cliff/commit/ecb7d8238bce2e731507065046051cb588416286))
 - Add simple sequential chain to run multiple prompts - ([a1a1488](https://github.com/orhun/git-cliff/commit/a1a148818248d61c7f4a88dfce796238c7b04359))
 - Langchain basic prompts with openai llms - ([54f1b64](https://github.com/orhun/git-cliff/commit/54f1b647e7b13d451adfbf63717e91bc75c78488))
@@ -16,6 +17,7 @@ All notable changes to this project will be documented in this file.
 
 ### 📚 Documentation
 
+- Added CHANGELOG.md - ([38fc8cd](https://github.com/orhun/git-cliff/commit/38fc8cdccbdf347eabe05344c865c4543e58e04d))
 - Update - ([e8575e5](https://github.com/orhun/git-cliff/commit/e8575e5f2863ce348932a0e151a4a1e4141ae1a9))
 - Update readme - ([35ac347](https://github.com/orhun/git-cliff/commit/35ac34798300f6d2c9799628ad5195f94c62bbed))
 
