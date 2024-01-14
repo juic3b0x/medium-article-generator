@@ -43,3 +43,4 @@ rever/
 # Envs
 .env*
 !.env.example
+cliff.toml
