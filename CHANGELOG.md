@@ -13,10 +13,12 @@ All notable changes to this project will be documented in this file.
 
 ### 🚜 Refactor
 
+- Updated models to gpt4 - ([93f03ad](https://github.com/orhun/git-cliff/commit/93f03add711a476c9664e73a36173d4445e0a2af))
 - Text-davinci-003 with gpt-3.5-turbo-instruct - ([f820fec](https://github.com/orhun/git-cliff/commit/f820fecc0b93e188cf44c47e432d8f9d6574e3c3))
 
 ### 📚 Documentation
 
+- Updated CHANGELOG.md - ([e4e144a](https://github.com/orhun/git-cliff/commit/e4e144a54f81793b01e2d607db770e2e59c6122a))
 - Added CHANGELOG.md - ([38fc8cd](https://github.com/orhun/git-cliff/commit/38fc8cdccbdf347eabe05344c865c4543e58e04d))
 - Update - ([e8575e5](https://github.com/orhun/git-cliff/commit/e8575e5f2863ce348932a0e151a4a1e4141ae1a9))
 - Update readme - ([35ac347](https://github.com/orhun/git-cliff/commit/35ac34798300f6d2c9799628ad5195f94c62bbed))
