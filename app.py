@@ -33,18 +33,18 @@ article_template = PromptTemplate(
 )
 
 # OpenAI llm instances
-gpt35_turbo_instruct_llm = OpenAI(model="gpt-3.5-turbo-instruct", temperature=0.9)
-gpt35_turbo_llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.9)
+gpt4_turbo_instruct_llm = OpenAI(model="gpt-4-turbo-preview", temperature=0.9)
+gpt4_turbo_llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0.9)
 
 # Chains for generating the title and article
 title_chain = LLMChain(
-    llm=gpt35_turbo_instruct_llm, 
+    llm=gpt4_turbo_instruct_llm, 
     prompt=title_template,
     output_key="article_title", 
     verbose=True
 )
 article_chain = LLMChain(
-    llm=gpt35_turbo_llm, 
+    llm=gpt4_turbo_llm, 
     prompt=article_template, 
     verbose=True
 )
