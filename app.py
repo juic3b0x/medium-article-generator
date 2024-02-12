@@ -6,7 +6,7 @@ from uuid import uuid4
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
+from langchain.chains import LLMChain, SimpleSequentialChain
 import hashlib
 
 load_dotenv()
